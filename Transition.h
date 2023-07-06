@@ -6,6 +6,7 @@ class Transition
 {
 public:
 	Transition();
+	Transition(int InCurrentState, string InCondition, int Out);
 	virtual ~Transition();
 
 	int CurrentState;

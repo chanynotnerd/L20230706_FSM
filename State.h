@@ -6,6 +6,7 @@ class State
 {
 public:
 	State();
+	State(int InID, string InStateName);
 	virtual ~State();
 
 	int ID;

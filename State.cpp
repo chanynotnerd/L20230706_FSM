@@ -6,6 +6,12 @@ State::State()
 	StateName = "";
 }
 
+State::State(int InID, string InStateName)
+{
+	ID = InID;
+	StateName = InStateName;
+}
+
 State::~State()
 {
 }

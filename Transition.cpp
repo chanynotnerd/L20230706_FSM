@@ -7,6 +7,14 @@ Transition::Transition()
 	NextState = 0;
 }
 
+Transition::Transition(int InCurrentState, string InCondition, int Out)
+{
+	CurrentState = InCurrentState;
+	Condition = InCondition;
+	NextState = Out;
+}
+
+
 Transition::~Transition()
 {
 }
